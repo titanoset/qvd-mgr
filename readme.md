@@ -46,6 +46,7 @@ npm install
 
 ## Настройка 
 ```bash
+# В корне проекта создайте папку `videos`
 # Структура файлов должна быть следующей:
 /videos
   /module1
@@ -57,7 +58,7 @@ npm install
   /module3
     - video3.mp4
     - presentation.pdf
-    
+
 # После добавления файлов, запустите сервер:
 npm start
 ```
