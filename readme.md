@@ -46,8 +46,18 @@ npm install
 
 ## Настройка 
 ```bash
-# В папке videos должны хранится папки с видео и текстовыми(пока что только PDF) файлами.
-
+# Структура файлов должна быть следующей:
+/videos
+  /module1
+    - video1.mp4
+    - document1.pdf
+  /module2
+    - video2.mp4
+    - document2.pdf
+  /module3
+    - video3.mp4
+    - presentation.pdf
+    
 # После добавления файлов, запустите сервер:
 npm start
 ```
